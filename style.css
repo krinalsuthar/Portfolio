@@ -11,7 +11,7 @@
   --text-color: #fff;
   ---color: #fff;
   --main-color: #0ef;
-  --back: url(/images/background.avif) no-repeat;
+  --back: url(images/background.avif) no-repeat;
 }
 html {
   font-size: 62.5%;
