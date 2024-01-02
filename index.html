@@ -169,8 +169,8 @@
     </section>
     <section class="contect" id="contect">
       <h2 class="heading">Contect <span>Me!</span></h2>
-      <form action="https://formspree.io/f/xyyrykqr" method="POST">
-        <div class="formCon">
+      <form class="form" action="https://formspree.io/f/xyyrykqr" method="POST">
+        <div class="formCon m-auto">
           <div class="mb-3">
             <label for="name" class="form-label">Enter Name</label>
             <input
@@ -179,6 +179,7 @@
               id="name"
               placeholder="Enter name"
               name="name"
+              required
             />
           </div>
 
@@ -190,6 +191,7 @@
               id="email"
               placeholder="Enter email"
               name="email"
+              required
             />
           </div>
 
@@ -201,6 +203,7 @@
               id="number"
               placeholder="+91"
               name="number"
+              required
             />
           </div>
           <div class="mb-3">
@@ -211,6 +214,7 @@
               rows="3"
               placeholder="Email subject"
               name="email Subject"
+              required
             ></textarea>
           </div>
           <button type="submit" class="btn1">Submit</button>
