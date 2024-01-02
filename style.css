@@ -11,7 +11,8 @@
   --text-color: #fff;
   ---color: #fff;
   --main-color: #0ef;
-  --back: url(images/background.avif) no-repeat;
+  --back: url(https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg)
+    no-repeat;
 }
 html {
   font-size: 62.5%;
